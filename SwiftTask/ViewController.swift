@@ -34,7 +34,14 @@ class ViewController: HQPagerViewController {
         
         order.frame = CGRect(origin: CGPoint(x: 0,y :0), size: CGSize(width: bottomViews.bounds.size.width/2, height: bottomViews.bounds.size.height))
         
-         Checkout.frame = CGRect(origin: CGPoint(x: bottomViews.bounds.size.width/2,y :0), size: CGSize(width: bottomViews.bounds.size.width/2, height: bottomViews.bounds.size.height))
+        Checkout.frame = CGRect(origin: CGPoint(x: bottomViews.bounds.size.width/2,y :0), size: CGSize(width: bottomViews.bounds.size.width/2, height: bottomViews.bounds.size.height))
+        
+        //    let vc4 = SampleViewController()
+        //    vc4.index = 0
+        //    let vc5 = SampleViewController()
+        //    vc5.index = 1
+        //    let vc6 = SampleViewController()
+        //    vc6.index = 2
     }
     
     override func didReceiveMemoryWarning() {
